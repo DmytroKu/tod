@@ -14,6 +14,7 @@ try:
     if connection.is_connected():
         print('Підключено до бази даних MySQL')
 
+
         # Створення таблиці "students"
         create_table_query = '''
         CREATE TABLE students (
